@@ -3,7 +3,7 @@ from flask import Flask, request, render_template
 app = Flask(__name__)
 
 # Fixed number for testing
-secret_number = 33
+secret_number = 10
 
 @app.route('/', methods=['GET', 'POST'])
 def guess_number():
